@@ -39,3 +39,4 @@ This section covers personal projects and guides from across that journey.
 Reference documentation for tools I use regularly.
 
 - [GitHub Pages + Material for MkDocs](github-pages.md) — How this site is built and deployed
+- [Oracle CPQ UI Tips](oracle-cpq-css.md) — Styling and customization patterns for Oracle CPQ instances

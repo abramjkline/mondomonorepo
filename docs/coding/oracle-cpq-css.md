@@ -15,21 +15,28 @@ The CSS files that come standard are: jetUI.css, alt_nav_menu.css, and nav_menu.
 1. Download each of these files to get the current CSS.
 2. Upload these files to your images directory under File Manager (I create a /css subdirectory, but you can put them really anywhere you want)
 3. Create new files for each of the CSS files downloaded in step 1. 
-4. In each of these files, you will have a single line of code.
-``` css
-    /* Adjust to the directory you set in step 2 */
-    /* jetUI */
-    @import url('../../image/css/jetUI.css')
-    /* Alt Nav Menu */
-    @import url('../../image/css/alt_nav_menu.css')
-    /* Nav Menu */
-    @import url('../../image/css/nav_menu.css')
-```
+4. In each of these files, add a single `@import` pointing to the versioned copy you uploaded in step 2:
+
+    ``` css
+    /* jetUI.css */
+    @import url('../../image/css/jetUI.css');
+    ```
+
+    ``` css
+    /* alt_nav_menu.css */
+    @import url('../../image/css/alt_nav_menu.css');
+    ```
+
+    ``` css
+    /* nav_menu.css */
+    @import url('../../image/css/nav_menu.css');
+    ```
+
 5. Using the Oracle CPQ GUI, replace the files from step 1 with the new files created in step 3.
 
 At this point, your CSS is being driven off of the files uploaded to the File Manager in step 3.
 
-Oracle CPQ has a CLI tool that can be used to interact with the files in your instance, however, I have had little luck using this. Instead, I have been using a VS Code Extension called [CPQ DevKit]('https://www.google.com'). You can configure the extension to pull from different environments (prod, dev, test). Using the extension, you can pull all of the files in the File Manager as well as all BML, Tables, and Assets included in your instance. This functionality allows you to version control any updates to your CSS files and beyond.
+Oracle CPQ has a CLI tool that can be used to interact with the files in your instance, however, I have had little luck using this. Instead, I have been using a VS Code Extension called [CPQ DevKit](https://marketplace.visualstudio.com/search?term=cpq+devkit&target=VSCode). You can configure the extension to pull from different environments (prod, dev, test). Using the extension, you can pull all of the files in the File Manager as well as all BML, Tables, and Assets included in your instance. This functionality allows you to version control any updates to your CSS files and beyond.
 
 ## Colors
 
@@ -63,8 +70,18 @@ Once you have defined these colors and uploaded the file, you can reference this
 
 ## Icons
 
-The icons that come with Oracle CPQ leave quite a bit to be desired. Thankfully, there are many open-source icon libraries available that you can utilize to enhance the UI for your instance. I like to use the [Material Icon library]('https://www.google.com') to give my Oracle CPQ instance a nice, modern aesthetic. There are a ton of options for icons and you can customize icon color and size as well as choosing filled or outlined.
+The icons that come with Oracle CPQ leave quite a bit to be desired. Thankfully, there are many open-source icon libraries available that you can utilize to enhance the UI for your instance. I like to use the [Material Icon library](https://fonts.google.com/icons) to give my Oracle CPQ instance a nice, modern aesthetic. There are a ton of options for icons and you can customize icon color and size as well as choosing filled or outlined.
 
 ## Fonts
 
+Oracle CPQ supports custom web fonts via CSS. You can load any font from [Google Fonts](https://fonts.google.com) by adding an `@import` to the top of your versioned CSS file and then applying it via `font-family` rules.
 
+``` css
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body, .ui-widget {
+    font-family: 'Inter', sans-serif;
+}
+```
+
+As with colors, defining fonts once at the root level and referencing them throughout keeps your CSS maintainable as the instance grows.

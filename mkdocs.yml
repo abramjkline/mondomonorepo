@@ -152,6 +152,7 @@ nav:
       - New Sweat Website: coding/new-sweat.md
     - Guides:
       - GitHub Pages: coding/github-pages.md
+      - Oracle CPQ UI Tips: coding/oracle-cpq-css.md
   - Music:
     - Overview: songwriting/index.md
     - Releases & Links: songwriting/recordings.md
