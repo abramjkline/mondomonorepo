@@ -3,14 +3,14 @@ site_name: The MondoRepo
 site_url: https://abramjkline.github.io/mondomonorepo
 site_author: Abe Kline
 site_description: >-
-  This project is a template for hosting projects and documentation.
+  Personal portfolio of Abe Kline — full-stack software developer and musician based in Raleigh, NC.
 
 # Repository
 repo_name: abramjkline/mondomonorepo
 repo_url: https://github.com/abramjkline/mondomonorepo
 
 # Copyright
-copyright: Copyright &copy; 2024 Abe Kline
+copyright: Copyright &copy; 2025 Abe Kline
 
 # Configuration
 theme:
@@ -54,9 +54,8 @@ theme:
         orange: "#FF9800" # Deep orange
 
   features:
- #   - navigation.tabs
- #   - navigation.expand
- #   - navigation.sections
+    - navigation.tabs
+    - navigation.sections
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -80,6 +79,7 @@ theme:
       quote: fontawesome/solid/quote-left
 
 extra_css:
+  - stylesheets/extra.css
 extra_javascript:
   - https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.3.0/tablesort.min.js
@@ -142,36 +142,36 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
-  - Coding: 
-    - Home: ./coding/index.md
-    - Utilities:
-      - GitHub Pages: ./coding/github-pages.md
-      - Playwright: ./coding/playwright.md
-      - GitHub Actions: ./coding/github-actions.md
+  - About: about.md
+  - Experience: experience.md
+  - Code:
+    - Overview: coding/index.md
     - Projects:
-      - COVID-19 (SAS): ./coding/covid-19.md
-  
-  - Songwriting:
-    - Home: ./songwriting/index.md
-    - Projects:
-      - Original Music: ./songwriting/recordings.md
+      - Mat Madness: coding/mat-madness.md
+      - COVID-19 Reporter: coding/covid-19.md
+      - New Sweat Website: coding/new-sweat.md
+    - Guides:
+      - GitHub Pages: coding/github-pages.md
+      - Oracle CPQ UI Tips: coding/oracle-cpq-css.md
+  - Music:
+    - Overview: songwriting/index.md
+    - Releases & Links: songwriting/recordings.md
     - Lyrics:
-      - All I Can Say: ./songwriting/all_i_can_say.md
-      - Around the World: ./songwriting/around_the_world.md
-      - Candle: ./songwriting/candle.md
-      - Cold Season: ./songwriting/cold_season.md
-      - Eleven: ./songwriting/11.md
-      - Enough: ./songwriting/enough.md
-      - Hypnotized: ./songwriting/hypnotized.md
-      - Left Lane: ./songwriting/left_lane.md
-      - Lullaby: ./songwriting/lullaby.md
-      - November 12: ./songwriting/november_12.md
-      - Philosophy of the Night: ./songwriting/philosophy.md
-      - Queen Bee: ./songwriting/queen_bee.md
-      - Ten: ./songwriting/10.md
-      - Thirty Eight: ./songwriting/38.md
-      - Unlock Another Door: ./songwriting/unlock_another_door.md
-      - Warrenville Road: ./songwriting/warrenville_road.md
-      - Welcome Home: ./songwriting/welcome_home.md
-      - Where You've Been: ./songwriting/where_youve_been.md
- 
+      - All I Can Say: songwriting/all_i_can_say.md
+      - Around the World: songwriting/around_the_world.md
+      - Candle: songwriting/candle.md
+      - Cold Season: songwriting/cold_season.md
+      - Eleven: songwriting/11.md
+      - Enough: songwriting/enough.md
+      - Hypnotized: songwriting/hypnotized.md
+      - Left Lane: songwriting/left_lane.md
+      - Lullaby: songwriting/lullaby.md
+      - November 12: songwriting/november_12.md
+      - Philosophy of the Night: songwriting/philosophy.md
+      - Queen Bee: songwriting/queen_bee.md
+      - Ten: songwriting/10.md
+      - Thirty Eight: songwriting/38.md
+      - Unlock Another Door: songwriting/unlock_another_door.md
+      - Warrenville Road: songwriting/warrenville_road.md
+      - Welcome Home: songwriting/welcome_home.md
+      - Where You've Been: songwriting/where_youve_been.md
