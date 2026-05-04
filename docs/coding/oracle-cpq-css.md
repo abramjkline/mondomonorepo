@@ -36,7 +36,7 @@ The CSS files that come standard are: jetUI.css, alt_nav_menu.css, and nav_menu.
 
 At this point, your CSS is being driven off of the files uploaded to the File Manager in step 3.
 
-Oracle CPQ has a CLI tool that can be used to interact with the files in your instance, however, I have had little luck using this. Instead, I have been using a VS Code Extension called [CPQ DevKit](https://marketplace.visualstudio.com/search?term=cpq+devkit&target=VSCode). You can configure the extension to pull from different environments (prod, dev, test). Using the extension, you can pull all of the files in the File Manager as well as all BML, Tables, and Assets included in your instance. This functionality allows you to version control any updates to your CSS files and beyond.
+Oracle CPQ has a CLI tool that can be used to interact with the files in your instance, however, I have had little luck using this. Instead, I have been using a VS Code Extension called [CPQ DevKit](https://marketplace.visualstudio.com/items?itemName=CPQConsultant.cpq-devkit-o). You can configure the extension to pull from different environments (prod, dev, test). Using the extension, you can pull all of the files in the File Manager as well as all BML, Tables, and Assets included in your instance. This functionality allows you to version control any updates to your CSS files and beyond.
 
 ## Colors
 
