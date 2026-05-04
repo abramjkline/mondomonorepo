@@ -1,6 +1,10 @@
+<div class="home-hero" markdown>
+
 # Abe Kline
 
-Full-stack software developer and musician based in Raleigh, NC.
+<span class="home-tagline">Full-stack software developer and musician based in Raleigh, NC.</span>
+
+</div>
 
 ---
 

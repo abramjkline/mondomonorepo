@@ -21,9 +21,8 @@ It started as a script-heavy Google Sheet and grew into a full web application o
 
 - **Frontend:** React + Vite
 - **Deployment:** Vercel
-
-<!-- TODO: Add backend/data layer details if applicable (e.g. Supabase, Google Sheets API, etc.) -->
+- **API:** Supabase
 
 ## Background
 
-<!-- TODO: Add a paragraph or two about the motivation — why you built it, how you use it with friends, what you learned building it, etc. -->
+This app began as a simple Google Sheet, morphed into a exceedingly complex, script-driven Google sheet, on to an AppScripts app for viewing results driven by Google Sheets, and finally into this fully functioning React web application. It all started as a challenge to build something that my friends and I could use for fun during the NCAA Wrestling National tournament akin to the widely-available applications for March Madness bracket challenges. The 2026 tournament was the intial release of the app, serving as somewhat of a pilot with our small group. It was a success and, with some additional features in the pipeline, it will hopefully be utilized by other groups going forward.

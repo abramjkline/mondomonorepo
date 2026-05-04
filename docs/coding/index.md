@@ -24,6 +24,14 @@ This section covers personal projects and guides from across that journey.
 
     [:octicons-arrow-right-24: View project](covid-19.md)
 
+-   :material-guitar-electric:{ .lg .middle } **New Sweat Website**
+
+    ---
+
+    Band website for New Sweat — rock and roll from Raleigh/Durham, NC. Built and maintained as a side project.
+
+    [:octicons-arrow-right-24: View project](new-sweat.md)
+
 </div>
 
 ## Guides
