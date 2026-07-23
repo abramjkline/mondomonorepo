@@ -147,6 +147,7 @@ nav:
   - Code:
     - Overview: coding/index.md
     - Projects:
+      - GND Lift: coding/gnd-lift.md
       - Mat Madness: coding/mat-madness.md
       - COVID-19 Reporter: coding/covid-19.md
       - New Sweat Website: coding/new-sweat.md

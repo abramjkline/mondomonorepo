@@ -8,6 +8,14 @@ This section covers personal projects and guides from across that journey.
 
 <div class="grid cards" markdown>
 
+-   :material-account-music:{ .lg .middle } **GND Lift**
+
+    ---
+
+    Social platform for musicians to build profiles, showcase bands, and find collaborators — built with React and Supabase.
+
+    [:octicons-arrow-right-24: View project](gnd-lift.md)
+
 -   :material-tournament:{ .lg .middle } **Mat Madness**
 
     ---
